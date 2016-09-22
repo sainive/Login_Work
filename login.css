@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(51, 153, 255);
+}
+
+.container {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    height: 35px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    border: 1px black solid;
+    padding-top: 0px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container .demo-form fieldset {
+    border: 0;
+    padding-bottom: 50px;
+}
+
+
+/*Not sure how to change place holder value.
+.container .demo-form fieldset input placeholder {
+    font-size: 20px;
+}*/
+
+.container .demo-form fieldset input {
+    display: block;
+    margin-left: 30px;
+    height: 40px;
+    width: 320px;
+    border: 2px solid grey;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+/*Ask about this please-I told text align left only
+Email and password is aliged to left*/
+
+.container .demo-form fieldset {
+    text-align: left;
+}
+
+.container .demo-form fieldset label {
+    margin-left: 30px;
+}
+
+.container .demo-form fieldset button {
+    width: 320px;
+    height: 40px;
+    margin-left: 30px;
+    background-color: #4CAF50;
+    font-size: 20px;
+    color: white;
+}
+
+.container .demo-form fieldset button:hover {
+    background-color: darkgreen;
+}
+
+.container .demo-form fieldset a {
+    display: block;
+    color: grey;
+    margin-top: 10px;
+}
+
+p,
+a {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
